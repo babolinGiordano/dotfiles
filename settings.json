@@ -1,15 +1,15 @@
 {
-  "editor.fontFamily": "Fira Code, Inconsolata, Menlo",
+  "editor.fontFamily": "Victor Mono, Fira Code, Inconsolata, Menlo",
   "editor.fontLigatures": true,
-  "editor.fontSize": 12,
+  "editor.fontSize": 15,
   "editor.lineHeight": 22,
-  "editor.quickSuggestionsDelay": 500,
+  "editor.quickSuggestionsDelay": 50,
   "editor.letterSpacing": 0.5,
   "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
-  "editor.tabSize": 3,
+  "editor.tabSize": 2,
   "editor.cursorWidth": 5,
   // this isn't really underline but we hack it to be a thicker cursor
   "editor.cursorStyle": "line",
@@ -19,15 +19,12 @@
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
-  //"vscode_custom_css.imports": [
-  //  "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
-  // ],
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "right",
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [
     80,
-    100
+    120
   ],
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
@@ -55,28 +52,9 @@
   // turn it off for JS
   // WES TURN THIS BACK ON
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "cSpell.userWords": [
-    "SIGNUP",
-    "Signin",
-    "Signout",
-    "TLDR",
-    "Templating",
-    "backend",
-    "camo",
-    "destructure",
-    "gmail",
-    "injectable",
-    "lightgrey",
-    "minmax",
-    "prefetch",
-    "promisify",
-    "refetch",
-    "wesbos"
-  ],
   "editor.autoIndent": true,
   "window.closeWhenEmpty": true,
   "editor.detectIndentation": false,
@@ -97,6 +75,114 @@
   "breadcrumbs.enabled": true,
   "sync.gist": "ddf267e9a89ad076b73e5f514e44aa7f",
   "window.openFoldersInNewWindow": "on",
-"workbench.settings.editor": "json",
-"terminal.integrated.cursorBlinking": true
+  "workbench.settings.editor": "json",
+  "terminal.integrated.cursorBlinking": true,
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
+    },
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f7f92f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "peacock.affectStatusBar": true,
+  "peacock.affectActivityBar": true,
+  "peacock.surpriseMeOnStartup": true,
+  "git.enableSmartCommit": true,
+  "telemetry.enableTelemetry": false,
+  "gitlens.advanced.telemetry.enabled": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#869cc1",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#F44336",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#6481b0",
+    "titleBar.inactiveBackground": "#6481b099",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#6481b0",
+    "statusBarItem.hoverBackground": "#869cc1",
+    "statusBar.foreground": "#e7e7e7",
+    "list.activeSelectionForeground": "#F44336",
+    "list.inactiveSelectionForeground": "#F44336",
+    "list.highlightForeground": "#F44336",
+    "scrollbarSlider.activeBackground": "#F4433650",
+    "editorSuggestWidget.highlightForeground": "#F44336",
+    "textLink.foreground": "#F44336",
+    "progressBar.background": "#F44336",
+    "pickerGroup.foreground": "#F44336",
+    "tab.activeBorder": "#F44336",
+    "notificationLink.foreground": "#F44336",
+    "editorWidget.resizeBorder": "#F44336",
+    "editorWidget.border": "#F44336",
+    "settings.modifiedItemIndicator": "#F44336",
+    "settings.headerForeground": "#F44336",
+    "panelTitle.activeBorder": "#F44336",
+    "breadcrumb.activeSelectionForeground": "#F44336",
+    "menu.selectionForeground": "#F44336",
+    "menubar.selectionForeground": "#F44336",
+    "editor.findMatchBorder": "#F44336",
+    "selection.background": "#F4433640"
+  },
+  "materialTheme.accent": "Tomato",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "html.format.wrapAttributes": "force",
+  "terminal.integrated.rendererType": "dom",
+  "npm.enableScriptExplorer": true,
+  "npm.autoDetect": "off"
 }
